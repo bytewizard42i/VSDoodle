@@ -1,0 +1,21 @@
+{
+    "name": "VSDoodle",
+    "displayName": "VSDoodle",
+    "description": "Superimposed doodle pad for VSCode.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": ["Other"],
+    "activationEvents": ["onCommand:vsdoodle.activate"],
+    "main": "./extension",
+    "contributes": {
+        "commands": [{
+            "command": "vsdoodle.activate",
+            "title": "Activate VSDoodle"
+        }]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    }
+}

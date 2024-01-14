@@ -1,1 +1,1 @@
-#* A test to see if I can upload a commit to my new repository
+#* Visual Studio Code (VSCode) extension designed to be a superimposed doodle pad for annotating and marking up code. You mentioned wanting features like sticky notes, highlighting, markup, circling code, shading, and the ability to turn the overlay on or off, as well as view it separately. We explored the feasibility of this idea, the potential technical approaches, and considerations for developing such an extension.
